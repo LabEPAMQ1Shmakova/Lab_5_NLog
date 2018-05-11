@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using NLog;
+using NLog.Config;
 
 namespace ConsoleApp1
 {
@@ -80,6 +81,7 @@ namespace ConsoleApp1
                 Console.WriteLine("Error: вводим только числа!");
                 log.ErrorParse();
                 return ParseWheight();
+
             }
         }
 
