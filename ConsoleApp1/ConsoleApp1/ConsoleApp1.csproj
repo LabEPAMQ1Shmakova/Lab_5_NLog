@@ -13,4 +13,16 @@
     <PackageReference Include="Selenium.WebDriver" Version="3.11.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="NLog.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="C:\Users\Дом\.nuget\packages\nlog.config\4.5.4\contentFiles\any\any\NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

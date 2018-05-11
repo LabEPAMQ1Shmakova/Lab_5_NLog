@@ -81,6 +81,7 @@ namespace ConsoleApp1
                 Console.WriteLine("Error: вводим только числа!");
                 log.ErrorParse();
                 return ParseWheight();
+                
 
             }
         }
